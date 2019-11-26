@@ -5,6 +5,7 @@ Script to check viability of impression pixels for each tactic
 Script will prompt for a csv containing the tactics and impression pixels you would like to check
 # Expects:
 at least 2 columns: "tactic_id" and "impression_pixel_json"
+no more than one instance of a given tactic id
 each value of the impression_pixel_json field should be enclosed in brackets
 
 Will unescape impression pixel, remove whitespace characters, as well as the first and last bracket 
